@@ -3,12 +3,12 @@ function game(a) {
 
 
     if (computer <= 1) {
-        document.getElementById("output").innerHTML = "<img src='./images/rock.jpeg'>"
+        document.getElementById("output").innerHTML = "<img src='rock.jpeg'>"
 
     } else if (computer <= 2) {
-        document.getElementById("output").innerHTML = "<img src='./images/paper.jpeg'>"
+        document.getElementById("output").innerHTML = "<img src='paper.jpeg'>"
     } else {
-        document.getElementById("output").innerHTML = "<img src='./images/scissors.jpeg'>"
+        document.getElementById("output").innerHTML = "<img src='scissors.jpeg'>"
     }
 
     const ans = (a, computer) => {
